@@ -19,5 +19,5 @@ root.render(
       offersCount={Setting.offersCount}
     />
 
-  </React.StrictMode>
+  </React.StrictMode>,
 );
