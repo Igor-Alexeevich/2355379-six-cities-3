@@ -1,4 +1,4 @@
-function LoginPage(): JSX.Element {
+function FavoritesPage(): JSX.Element {
   return (
     <div className="page">
       <header className="header">
@@ -168,4 +168,4 @@ function LoginPage(): JSX.Element {
   );
 }
 
-export default LoginPage;
+export default FavoritesPage;
