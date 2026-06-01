@@ -1,5 +1,3 @@
-import PageNotFound from './pages/page-not-found/page-not-found';
-
 const setting = {
   offersCount: 312,
 } as const;
@@ -11,6 +9,12 @@ export enum AppRoute {
   Favorites = '/favorites',
   Offer = '/offer/:id',
   PageNot = '/page-not-found'
+}
+
+export enum AuthorizationStatus {
+  Auth = 'AUTH',
+  NoAuth = 'NO_AUTH',
+  Unknown = 'UNKNOWN',
 }
 
 export default setting;
