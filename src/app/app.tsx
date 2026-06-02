@@ -1,11 +1,11 @@
 import { Route, BrowserRouter, Routes } from 'react-router-dom';
-import MainPage from '../../pages/main-page/main-page';
-import LoginPage from '../../pages/login-page/login-page';
-import PrivateRoute from '../private-route/private-route';
-import OfferPage from '../../pages/offer-page/offer-page';
-import FavoritesPage from '../../pages/favorites/favorites-page';
-import PageNotFound from '../../pages/page-not-found/page-not-found';
-import { AppRoute, AuthorizationStatus } from '../../const';
+import MainPage from '../pages/main-page/main-page';
+import LoginPage from '../pages/login-page/login-page';
+import PrivateRoute from '../components/private-route/private-route';
+import OfferPage from '../pages/offer-page/offer-page';
+import FavoritesPage from '../pages/favorites/favorites-page';
+import PageNotFound from '../pages/page-not-found/page-not-found';
+import { AppRoute, AuthorizationStatus } from '../const';
 
 type AppScreenProps = {
   offersCount: number;
