@@ -1,9 +1,9 @@
-import MainPage from '../../pages/main-page/main-page';
-import LoginPage from '../../pages/login-page/login-page';
-import FavoritesPage from '../../pages/favorites/favorites-page';
-import OfferPage from '../../pages/offer-page/offer-page';
-import { Offer } from '../../types/offer';
-import { AppRoute } from '../../const';
+import MainPage from '../pages/main-page/main-page';
+import LoginPage from '../pages/login-page/login-page';
+import FavoritesPage from '../pages/favorites/favorites-page';
+import OfferPage from '../pages/offer-page/offer-page';
+import { Offer } from '../types/offer';
+import { AppRoute } from '../const';
 //import React from 'react';
 import {
   BrowserRouter,
